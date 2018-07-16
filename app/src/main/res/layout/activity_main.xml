@@ -29,12 +29,34 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="108dp"
+        android:layout_marginBottom="161dp"
         android:onClick="clickFunction"
-        android:text="Button"
+        android:text="Login"
         tools:layout_editor_absoluteX="148dp"
         tools:layout_editor_absoluteY="98dp" />
+
+    <EditText
+        android:id="@+id/userTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="117dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="204dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
 
 </RelativeLayout>
