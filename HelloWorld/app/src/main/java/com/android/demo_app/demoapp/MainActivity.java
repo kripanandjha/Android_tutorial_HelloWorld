@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         //Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
 
-        Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, ""+myText.getText().toString(), Toast.LENGTH_SHORT).show();
     }
 
 
